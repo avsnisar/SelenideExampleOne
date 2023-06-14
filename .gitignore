@@ -1,0 +1,8 @@
+.idea/
+*.iml
+!SelenideExampleOne.iml
+*.iws
+target/
+log/
+allure-results/
+allure-report/
