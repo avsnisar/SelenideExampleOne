@@ -1,6 +1,7 @@
 package test.examples.base;
 
 import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.WebDriverRunner;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import test.examples.config.WebDriverConfig;
@@ -23,5 +24,6 @@ public abstract class AbstractBaseTest {
     @AfterClass
     public void tearDown() {
         Selenide.closeWebDriver();
+        WebDriverRunner.closeWebDriver();
     }
 }
