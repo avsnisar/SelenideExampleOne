@@ -41,5 +41,6 @@ public class GoogleSearchTest extends AbstractBaseTest {
     @AfterMethod
     public void makeScreenshot(){
         makeAndAttachScreenshot();
+        System.out.println("ddd");
     }
 }
